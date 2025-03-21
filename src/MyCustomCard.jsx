@@ -27,7 +27,7 @@ export const MyCustomCard = ({ id, nev, faj, meret, tonev, kep }) => {
 
     return (
         <>
-            <Card width="18rem" margin="1rem">
+            <Card width="18rem" margin="1rem" style={{maxWidth: "18rem", margin: "1rem"}}>
                 <Card.Img variant="top" src={`data:image/jpeg;base64,${kep}`} />
                 <Card.Body>
                     <Card.Title>{nev}</Card.Title>
